@@ -49,13 +49,13 @@
 
 /* .movies-container{width:80%;display: flex;justify-items: center;padding: 5rem;} */
 
-.card-description {
+/* .card-description {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-line-clamp: 3; 
   -webkit-box-orient: vertical;
-}
+} */
 
 /* .card {
   background-color: #ECEAEA;

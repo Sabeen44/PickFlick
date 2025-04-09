@@ -1,10 +1,13 @@
 import React from 'react'; 
- 
- 
- const Header = () => {
-      return (
-          <header className="bg-primary text-white text-center py-3 custom-header"> <h1>My Mood Movie</h1> </header> 
-         ); 
-     }; 
-     
-     export default Header;
+import icon from './images/movie-icon.png';
+
+
+const Header = () => {
+     return (
+         <header className="custom-header">
+            <img src={icon} alt="Logo" className='header-icon' />
+             <h1>Pick Flick By Emoji Click</h1> </header> 
+        ); 
+    }; 
+    
+    export default Header;

@@ -21,8 +21,7 @@ const EmojiList = () => {
 ],
 
 
-// confirmed ##
-// ##
+
 
  []);
 
