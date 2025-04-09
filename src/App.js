@@ -3,8 +3,8 @@ import './App.css';
 import Header from './Header';
 import EmojiList from './Main.js';
 //import MovieList from './Movies';
-import EmojiCategories from './EmojiCategories.js';
-import MovieList from './FetchMovieTest';
+//import EmojiCategories from './EmojiCategories.js';
+//import MovieList from './FetchMovieTest';
 
 
 

@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import axios from 'axios';
 import movieMood from './MoodArray.js';
-import genres from './GenreObject';
+//import genres from './GenreObject';
 
 import MovieCard from './MovieCard.js';
 
