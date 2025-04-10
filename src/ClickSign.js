@@ -1,4 +1,4 @@
-import { left } from 'inquirer/lib/utils/readline';
+
 import React from 'react';
 
 const SlantedClickHereSign = () => {
