@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/PickFlick/static/css/main.87f4553b.css",
+    "main.js": "/PickFlick/static/js/main.f74ea76f.js",
+    "static/js/453.11bd5ab3.chunk.js": "/PickFlick/static/js/453.11bd5ab3.chunk.js",
+    "static/media/movie-icon.png": "/PickFlick/static/media/movie-icon.78ed2b028a8371919cb9.png",
+    "index.html": "/PickFlick/index.html",
+    "main.87f4553b.css.map": "/PickFlick/static/css/main.87f4553b.css.map",
+    "main.f74ea76f.js.map": "/PickFlick/static/js/main.f74ea76f.js.map",
+    "453.11bd5ab3.chunk.js.map": "/PickFlick/static/js/453.11bd5ab3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87f4553b.css",
+    "static/js/main.f74ea76f.js"
+  ]
+}
