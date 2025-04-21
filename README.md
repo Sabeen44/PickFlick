@@ -1,5 +1,6 @@
 # 🎥 Pick Flick: Movie Recommendations by Emoji Click 🎭
-Welcome to Pick Flick By Emoji CLick ! This is a fun and interactive web application designed to recommend movies based on the emoji you choose. Whether you're in the mood for something exciting, heartwarming, or downright hilarious, Pick Flick will guide you to your next binge-worthy flick! 🍿
+Welcome to Pick Flick By Emoji CLick ! This is a fun and interactive web application designed to recommend movies based on the emoji you choose. Whether you're in the mood for something exciting, heartwarming, or downright hilarious, Pick Flick will guide you to your next binge-worthy flick available on popular streaming platforms such as netfilx,prime,hulu,peacock! 🍿
+
 
 ## 🌟 Features
 - **Emoji-Based Recommendations: Click an emoji that fits your vibe and get personalized movie recommendations.
@@ -7,6 +8,7 @@ Welcome to Pick Flick By Emoji CLick ! This is a fun and interactive web applica
 - **User-Friendly Interface: An engaging, visually appealing layout to enhance user experience.
 
 - **Responsive Design: Works seamlessly across desktop and mobile devices.
+
 
 ## 🛠️ Tech Stack
 - **React**: For building the user interface.
@@ -17,10 +19,14 @@ Welcome to Pick Flick By Emoji CLick ! This is a fun and interactive web applica
 
 - **Custom Components**: Modular, reusable components like the MovieCard and Header.
 
-## 🌐URL: https://github.com/Sabeen44/PickFlick.git
+
+## 🌐URL
+ https://github.com/Sabeen44/PickFlick.git
+
 
 ## 📜 License
 This project is open-source and available under the MIT License.
+
 
 ## ✨ Acknowledgments
 Built with ❤️ using React.

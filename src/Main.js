@@ -68,7 +68,7 @@ const EmojiList = () => {
     return title.replace(/#/g, '').trim();
   };
 
-  let searchQuery = 'magnet';
+
 
 
   const fetchAndDisplayEmojis = async () => {
