@@ -1,7 +1,19 @@
 
 
+
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr); /* Defines 3 rows, each taking equal space */
+  grid-template-columns: 1fr; /* Defines 1 column */
+  gap: 10px; /* Adds spacing between rows */
+  width: 100%; /* Adjust container width */
+  height: 300px; /* Example height for the grid */
+}
+
+
 .custom-header { background-color: #4dd551; color: white; text-align: center; padding: 20px;display: flex;
-  align-items: center;
+  align-items: center; position: relative;
+ 
   }
 
 
@@ -15,11 +27,11 @@
   
 }
 
-.about-link {
+/* .about-link {
   position: absolute;
   top: 10px; /* Distance from the top */
-  right: 10px; /* Distance from the right */
-  font-size: 1rem;
+  /* right: 10px; /* Distance from the right */
+  /* font-size: 1rem;
   text-decoration: none;
   color: black;
  
@@ -29,11 +41,55 @@
   margin-right: 2rem;
   
 
-}
+} */ 
 
 .about-link:hover {
   text-decoration: underline;
 }
+
+.about-button {
+  display: flex; /* No comma here */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  font-size: 1rem; /* Use proper CSS property names */
+  padding: 5px 10px;
+  background-color: black; /* Use hyphen between background and color */
+  color: white;
+  border: none; /* Removed the incorrect single quote */
+  border-radius: 5px; /* Use hyphen between border and radius */
+  cursor: pointer;
+  margin-right: 2rem; /* Fixed the incorrect single quote */
+}
+
+.slanted-sign {
+  display: block;
+  font-size: 1.2rem;
+  color: #ff6f61;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  text-align: center;
+  transform: rotate(-25deg); /* Slanted effect */
+  position: relative;
+  margin-top: 5rem;
+  margin-left: -20rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.slanted-button:hover {
+  transform: rotate(-10deg) scale(1.1); /* Hover effect */
+}
+
+.slanted-arrow {
+  display: block;
+  font-size: 2rem;
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
 
 /*Emojis*/
 
@@ -75,8 +131,43 @@
   margin-left: 10px;
 }
 
+@media (max-width: 480px) {
+  .grid-container{  text-align: center;
+    flex-direction: column;}
+  .custom-header {
+    flex-direction: column;
+    text-align: center;
+   
+  }
+  
+}
 
-
+@media (max-width: 768px) {
+  
+    .custom-header {
+      width: 100%;
+      height: auto;
+     
+      flex-direction: column;
+      text-align: center;}
+     
+      .about-button { 
+        position: relative; /* Changes position type to relative */
+        margin-top: 10px; /* Adds spacing above the button */
+        margin-left: auto; /* Centers the button horizontally */
+        margin-right: auto;
+        display: block;
+   
+    
+  }
+  .slanted-sign{ 
+    position: relative; /* Changes position type to relative */
+    margin-top: 30px; /* Adds spacing above the button */
+    margin-left: auto; /* Centers the button horizontally */
+    margin-right: auto;
+    display: block;
+  }
+}
 
 /* .movies-container{width:80%;display: flex;justify-items: center;padding: 5rem;} */
 

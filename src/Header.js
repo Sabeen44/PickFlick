@@ -12,21 +12,9 @@ const Header = () => {
     <header className="custom-header" style={{ position: 'relative' }}>
       <img src={icon} alt="Logo" className="header-icon" />
       <h1>Pick Flick By Emoji Click</h1>
-      <button
+      <button className='about-button'
         onClick={toggleAbout}
-        style={{
-          position: 'absolute',
-          top: '10px',
-          right: '10px',
-          fontSize: '1rem',
-          padding: '5px 10px',
-          backgroundColor: 'black',
-          color:'white',
-          border: 'none',
-          borderRadius: '5px',
-          cursor: 'pointer',
-          marginRight:'2rem'
-        }}
+        
       >
         Learn More
       </button>

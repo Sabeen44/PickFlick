@@ -14,17 +14,20 @@ import  SlantedClickHereSign from './ClickSign.js';
 function App() {
   return (
     <>
-    <div className="App">
+    <div className="grid-container">
     <Router>
-      <Header />
+      <Header className='row-one' />
       <Routes>
         <Route path="/about" element={<About />} />
       </Routes>
     </Router>
+    <div className='row-two'>< SlantedClickHereSign/></div>
+    <EmojiList className='row-three' />
      </div>
+    
      <div>
-      < SlantedClickHereSign/>
-       <EmojiList />
+      
+      
         {/* <EmojiCategories/>  */}
          {/* <MovieList/>   */}
        
