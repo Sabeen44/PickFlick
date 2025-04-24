@@ -10,15 +10,11 @@ const MovieCard = ({ show }) => {
     setIsExpanded(!isExpanded);}
 
   return (
-    <div className="col-md-4 mb-5">
+     <div className="col-md-4 mb-5" >
+    {/* //  className="col-md-4 mb-5" */}
       <div
         className="card"
-        style={{
-          backgroundColor: '#ECEAEA',
-          position: 'relative', // Needed for absolute positioning
-          transition: 'transform 0.3s ease, box-shadow 0.3s ease, height 0.3s ease',
-          height: isExpanded ? 'auto' : '400px', // Expandable height
-        }}
+       
       >
         <img
           src={imgSrc}

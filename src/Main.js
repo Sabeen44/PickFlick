@@ -161,7 +161,7 @@ const EmojiList = () => {
       <div className='button-container'>
         <button onClick={fetchAndDisplayEmojis} className="emoji-button">Display Emojis</button>
       </div>
-      <div>
+      <div className=''>
         {loading && <div>Loading...</div>}
         {error && <div>Error: {error.message}</div>}
         {buttonClicked && !showMovies && (
@@ -187,7 +187,7 @@ const EmojiList = () => {
             <div>
               <h2 className='movies-heading'>Movies to match your mood</h2>
             </div>
-            <div className='container'>
+            <div className='container card-container'>
               <div className="row">
                 {movies.map((show, index) => (
                   <MovieCard key={index} show={{...show, title: removeHashtags(show.title),overview:show.overview}} />

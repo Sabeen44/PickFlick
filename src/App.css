@@ -108,7 +108,7 @@
 
 
 
-.emoji-list{display: flex;justify-content: center;padding:2rem;background-color: #D9D9D9;margin: 4rem;
+.emoji-list{display: flex;justify-content:center;padding:2rem;background-color: #D9D9D9;margin: 4rem;flex-wrap: wrap
 
 }
 
@@ -131,16 +131,30 @@
   margin-left: 10px;
 }
 
+  /* .card-container {
+  display: flex; 
+  background-color: #ECEAEA;
+  width: 200px; */
+ /* position: relative;  Needed for absolute positioning */
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease, height 0.3s ease;*/
+ /* height: 400px; /* Default height for when not expanded  
+ } */
+
+/* card-container .expanded {
+  height: auto; /* Automatically adjusts height when expanded 
+ }   */
+
 @media (max-width: 480px) {
   .grid-container{  text-align: center;
     flex-direction: column;}
   .custom-header {
     flex-direction: column;
     text-align: center;
-   
-  }
+    }  
+    }
   
-}
+  
+
 
 @media (max-width: 768px) {
   
@@ -167,7 +181,17 @@
     margin-right: auto;
     display: block;
   }
+  .emoji-list{flex-wrap: wrap ;}
+
+   .card{max-width: 400px;} 
+ 
+ /* .emoji-container{max-width: 00px;margin-left: 2rem;} */
+  
+
+
 }
+
+
 
 /* .movies-container{width:80%;display: flex;justify-items: center;padding: 5rem;} */
 
